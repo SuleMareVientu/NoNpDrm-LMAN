@@ -26,7 +26,12 @@ target_link_libraries(nonpdrm
   taihenForKernel_stub
 )
 
-vita_create_self(nonpdrm.skprx nonpdrm CONFIG exports.yml UNSAFE)
+set_target_properties(nonpdrm
+  PROPERTIES LINK_FLAGS "-nostdlib"
+  COMPILE_FLAGS "-D__PSP2_KERNEL__"
+)
+
+vita_create_self(nonpdrm.skprx nonpdrm CONFIG exports.yml UNSAFE STRIPPED REL_OPTIMIZE)
 
 add_custom_target(copy
   COMMAND cp nonpdrm.skprx F:/tai/nonpdrm.skprx
