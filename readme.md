@@ -1,5 +1,4 @@
-# NoNpDrm Plugin by TheFloW (c) 2017-2018
-# v1.4 Unofficial by LMAN (c) 2017-2019
+# NoNpDrm Plugin by TheFloW (c) 2017-2018 / <br/> v1.4 Unofficial by LMAN (c) 2017-2019
 
 ## Features
 - Exports PS Vita content license keys as fake licences.
@@ -139,8 +138,8 @@ The source code is located within the `src` directory and is licensed under `GPL
 
 ## Donation
 All my work is voluntary and non-profit, however you can support my work by making a small donation - no matter how small, I'd be very thankful! Just be careful what you write to me in the message ;)  
-[Donation Link for TheFlow ](https://www.paypal.me/PSVitaTheFloW)
-[Donation Link for LeecherMan ](https://www.paypal.me/LeecherMan)
+[Donation Link for TheFlow ](https://www.paypal.me/PSVitaTheFloW)  
+[Donation Link for LeecherMan ](https://www.paypal.me/LeecherMan)  
 
 ## Special thanks
 - Thanks to Team molecule for HENkaku and thanks to [yifanlu](https://twitter.com/yifanlu) for taiHEN.
